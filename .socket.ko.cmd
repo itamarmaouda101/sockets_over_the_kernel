@@ -1,0 +1,1 @@
+cmd_/home/itamar/sockets_over_the_kernel/socket.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/itamar/sockets_over_the_kernel/socket.ko /home/itamar/sockets_over_the_kernel/socket.o /home/itamar/sockets_over_the_kernel/socket.mod.o;  true
